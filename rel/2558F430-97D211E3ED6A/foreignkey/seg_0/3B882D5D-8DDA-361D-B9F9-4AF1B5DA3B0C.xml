@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B882D5D-8DDA-361D-B9F9-4AF1B5DA3B0C" containerWithKeyObject="91F3CB12-DC77-01E6-B887-7F5D5BC32772" localFKIndex="F6AE2FBD-1D8B-B2EF-E9B5-6F3D9271A5B0" name="POTREBA_KNJ_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>FBB1E94A-223E-BCAF-672F-971411807D89</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<referredTableLongName>KNJ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>08CC9E2E-5339-CAF7-8377-75E39012725F</referredTableID>
+<keyObject>70E49812-C63F-A20F-E80D-637AB64DE0DF</keyObject>
+<referredKeyID>70E49812-C63F-A20F-E80D-637AB64DE0DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ISBN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

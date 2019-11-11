@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3753E243-9A5A-3467-5F35-F1711EEF25F4" name="Javna_nabavka">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:25 UTC</createdTime>
+<generatorID>1B8E78C8-E41F-21CC-4858-A8B18B41A1FA</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_JAV" id="C61A0F9A-D561-89DB-A43B-CAFF2281C3EF">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:25 UTC</createdTime>
+<generatorID>86004806-9C22-2B52-6BD8-5A1C375330E8</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_pocetka_konkursa" id="9460179E-F478-202E-BADC-D8C6542A2743">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:25 UTC</createdTime>
+<generatorID>7941791D-4B09-D750-158F-EE157B9A5E11</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rok_za_prijavu" id="80A5A017-1502-7AB1-08AC-9C7665F8542D">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:25 UTC</createdTime>
+<generatorID>F4067F20-39EB-9F04-C0AF-F662A315DF5F</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Biblioteka_ID_BIB" id="7182602C-698D-BF96-B282-7AAB0876241A">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:25 UTC</createdTime>
+<generatorID>58861AFA-736F-FF33-CC91-F994DABD8347</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81788343-79D8-8077-2557-59026B7E6B3A" referredColumn="A201E96A-E10F-3114-5148-296C333EED34"/>
+</associations>
+</Column>
+<Column name="Rukovodilac_ID_ZAP" id="45C1E685-8838-02D9-DF67-2608FC5F1E0E">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>1081E70C-A5F8-1235-CCFE-1F5DE3D49298</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C6401B3-3244-83B1-26F2-11D161697829" referredColumn="741C59F8-AD9E-E845-DEEA-44D3440BB86F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CD8199F-EAC7-25E8-F49B-24822DE7D7E1" name="Javna_nabavka_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:25 UTC</createdTime>
+<generatorID>B13FBA67-5B2E-7D92-66BF-58953D71F86F</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C61A0F9A-D561-89DB-A43B-CAFF2281C3EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59253A8B-B535-1AAE-A52A-A51303F79A49" name="Javna_nabavka_Biblioteka_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>0F543DE6-E936-31BF-E975-2BA25349105C</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7182602C-698D-BF96-B282-7AAB0876241A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9751B514-9897-B657-D440-93EF785C3930" name="Javna_nabavka_Rukovodilac_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>C4A2A4E1-7196-6ACF-9F0F-831B7461356A</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45C1E685-8838-02D9-DF67-2608FC5F1E0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8811B97D-F3EF-43FD-5D63-5023D5CD94AC" name="Zaposleni">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>4161FA7E-D47B-5C0F-FAC9-B59E4F712FBD</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAP" id="55282D52-EA5C-42BA-5E86-8BD4FBF05B30">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>34F4754F-9B54-D278-CA1F-86C9255EE85D</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="9F20EFFA-3F9D-731B-0B6E-1DD721E43A2B">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>EB3B074B-3D73-1592-DE16-60EC081B911E</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="04E408B7-31C1-4FBE-F9CB-E0D37FA5E6F7">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>A9DE379B-3A84-1E97-370B-CEBBC6C59781</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_zaposlenja" id="21BCC720-9BEB-E3B3-B968-7B85AB7C44B9">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>E5CCE57A-3F3E-EEB5-0301-A6F4E394DD53</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Visina_plate" id="729B1E05-BB54-223D-05DE-A9A408F36201">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>46BC868B-C443-23C4-94B6-FF870E11EFA1</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_zaposlenog" id="B4508647-0016-9145-DB4E-5FF699899ED9">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>5BAF9E92-4EE8-BA11-55D6-DD8B5E3F72E0</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<constraintName>CH_INH_Zaposleni</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<domain>C69D1C40-354F-CFA3-007E-FAA08AF48824</domain>
+<listOfValues>
+<valueDef value="Bibliotekar" description="entity Bibliotekar"/>
+<valueDef value="Rukovodilac" description="entity Rukovodilac"/>
+<valueDef value="Zaposleni" description="entity Zaposleni"/>
+</listOfValues>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83CACA6A-4A7E-D6BA-AD2C-130FDB5EE164" name="Zaposleni_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>0363055C-2BE5-796F-1B5C-6F7C261D3C26</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55282D52-EA5C-42BA-5E86-8BD4FBF05B30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

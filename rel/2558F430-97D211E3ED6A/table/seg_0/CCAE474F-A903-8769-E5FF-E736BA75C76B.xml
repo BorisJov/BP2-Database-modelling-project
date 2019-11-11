@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCAE474F-A903-8769-E5FF-E736BA75C76B" name="Bibliotekar">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>0DE9A3A7-C2D9-78CE-9024-55FF0BC25C98</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAP" id="E682E942-BA03-EB77-3514-06D172C0A357">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>34F4754F-9B54-D278-CA1F-86C9255EE85D</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AACBF138-6B0D-61D5-5F4E-F8FFF1A211AB" referredColumn="55282D52-EA5C-42BA-5E86-8BD4FBF05B30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D852BFE2-8BE9-E0D5-5D98-4E65557C6EED" name="Bibliotekar_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>0363055C-2BE5-796F-1B5C-6F7C261D3C26</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E682E942-BA03-EB77-3514-06D172C0A357"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06D28AE6-4D9D-D37D-3284-6855DDF3E908" name="Bibliotekar_Zaposleni_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>A6E2DE6D-14FE-E5E0-A1E1-2CABBD826669</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E682E942-BA03-EB77-3514-06D172C0A357"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

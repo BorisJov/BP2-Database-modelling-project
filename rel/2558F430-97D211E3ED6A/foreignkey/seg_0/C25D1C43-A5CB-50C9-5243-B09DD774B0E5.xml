@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C25D1C43-A5CB-50C9-5243-B09DD774B0E5" containerWithKeyObject="890509DB-F39E-0B32-88CE-6B55E1C0CF3A" localFKIndex="1BE6FFC6-1D24-E4B4-5189-8C17F8B8ED68" name="Naplata_Pozajmica_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>C0DED7A3-CF8A-D407-D708-1267F256ED6E</generatorID>
+<notes>Veza postoji samo ako je tip naplate dugovanje zbog pozajmice.&lt;br/&gt;</notes>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<referredTableLongName>Pozajmica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8458DF98-B102-DD1C-2CF3-70740D4F72CB</referredTableID>
+<keyObject>C65952D7-94FE-DB5E-458A-641E4003814E</keyObject>
+<referredKeyID>C65952D7-94FE-DB5E-458A-641E4003814E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_POZ</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

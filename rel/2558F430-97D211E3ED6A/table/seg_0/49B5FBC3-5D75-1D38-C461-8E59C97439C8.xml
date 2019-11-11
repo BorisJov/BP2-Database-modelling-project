@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49B5FBC3-5D75-1D38-C461-8E59C97439C8" name="Biblioteka">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 14:15:44 UTC</createdTime>
+<generatorID>C04CF0EC-C2A8-753E-D26C-E391C30F1287</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_BIB" id="A201E96A-E10F-3114-5148-296C333EED34">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 14:15:44 UTC</createdTime>
+<generatorID>21F0B140-68F2-6F3E-37E7-92D78D0CFFEE</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mesto" id="47D54E82-F0A4-0A66-5B5A-335F1F1470FE">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 14:15:44 UTC</createdTime>
+<generatorID>ABA83AEE-1264-1687-894A-86A6E7CB6F2C</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="582DCFCA-B570-2FB9-1313-893D8D98BF01">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 14:15:44 UTC</createdTime>
+<generatorID>5EBDCBCD-31DF-A042-90EB-6C697C7B3B3A</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59ABD3B0-6E71-4EB3-E247-E69522A8A378" name="Biblioteka_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 14:15:44 UTC</createdTime>
+<generatorID>5BE45E94-0D1D-CC08-8F15-6D2BF9E00FF9</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A201E96A-E10F-3114-5148-296C333EED34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NAPLACENO" directorySegmentName="seg_0" id="F1C503EB-6F46-CD3D-FD9C-42796EAF4BF9">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:50:13 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<sourcePk>04B5311E-F42A-1A9F-BB8C-51E691ED2AE7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2B7E879-9CD7-1168-FA5F-7B7130DDCE21</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>021B30F0-B60F-8AD8-74F3-62FC4D937D98</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

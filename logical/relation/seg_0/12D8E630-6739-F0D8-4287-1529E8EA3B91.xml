@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zahteva se" directorySegmentName="seg_0" id="12D8E630-6739-F0D8-4287-1529E8EA3B91">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:39:39 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<sourcePk>BAFE647F-F60B-6DFD-5636-224D3A555286</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7E9A8BA-D36A-093F-C4AD-8F3E14CC45A3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75DB553D-B120-72F7-21F8-038110B91147</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

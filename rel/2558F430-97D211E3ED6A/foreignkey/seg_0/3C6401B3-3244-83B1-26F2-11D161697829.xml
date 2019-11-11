@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3C6401B3-3244-83B1-26F2-11D161697829" containerWithKeyObject="3753E243-9A5A-3467-5F35-F1711EEF25F4" localFKIndex="9751B514-9897-B657-D440-93EF785C3930" name="Javna_nabavka_Rukovodilac_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>C4A2A4E1-7196-6ACF-9F0F-831B7461356A</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<referredTableLongName>Rukovodilac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9604AFE0-D08F-4A75-41D8-CF15A92AB5B9</referredTableID>
+<keyObject>EE695710-8BFA-7148-0AED-5F665ECD5201</keyObject>
+<referredKeyID>EE695710-8BFA-7148-0AED-5F665ECD5201</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ZAP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

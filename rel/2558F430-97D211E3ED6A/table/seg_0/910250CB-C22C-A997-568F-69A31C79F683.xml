@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="910250CB-C22C-A997-568F-69A31C79F683" name="RADE">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZAP_ID_ZAP" id="8EE8E93A-3F62-A543-3D3D-7CE32875607D">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="559A3CEB-4DAE-4FB4-0A5C-5B3679C17347" referredColumn="55282D52-EA5C-42BA-5E86-8BD4FBF05B30"/>
+</associations>
+</Column>
+<Column name="ODE_ID_ODE" id="803C5D36-35E0-0AB4-BCDD-FF398E885ECE">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75970766-45FD-7702-C897-D160DF62F70F" referredColumn="CE6202AA-57D3-BD7B-1D19-E157BADF17C4"/>
+</associations>
+</Column>
+<Column name="ODE_BIB_ID_BIB" id="7E962B53-8406-60AD-6100-CA1B72F61453">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75970766-45FD-7702-C897-D160DF62F70F" referredColumn="11997D61-3A4C-BCAB-CC16-A35F9D016764"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B49CA1A0-84F1-2361-AF64-DC68C48D18AB" name="RADE_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EE8E93A-3F62-A543-3D3D-7CE32875607D"/>
+<colUsage columnID="803C5D36-35E0-0AB4-BCDD-FF398E885ECE"/>
+<colUsage columnID="7E962B53-8406-60AD-6100-CA1B72F61453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26631303-0565-5408-F97C-7A80402579A7" name="RADE_ZAP_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>A4B7B033-CDCC-E689-180E-A61E6588BDEF</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EE8E93A-3F62-A543-3D3D-7CE32875607D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="320B2564-24DD-476B-2D45-564AA057C210" name="RADE_ODE_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>A4B7B033-CDCC-E689-180E-A61E6588BDEF</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="803C5D36-35E0-0AB4-BCDD-FF398E885ECE"/>
+<colUsage columnID="7E962B53-8406-60AD-6100-CA1B72F61453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07719FED-6C3F-A31F-A009-B885E0D7EBC7" containerWithKeyObject="8458DF98-B102-DD1C-2CF3-70740D4F72CB" localFKIndex="1DCFE218-9B51-67C0-E8F2-C8AFA94699E1" name="Pozajmica_Bibliotekar_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>299FF771-C2E4-DFD9-6D63-DB020151A9EB</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<referredTableLongName>Bibliotekar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCAE474F-A903-8769-E5FF-E736BA75C76B</referredTableID>
+<keyObject>D852BFE2-8BE9-E0D5-5D98-4E65557C6EED</keyObject>
+<referredKeyID>D852BFE2-8BE9-E0D5-5D98-4E65557C6EED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ZAP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

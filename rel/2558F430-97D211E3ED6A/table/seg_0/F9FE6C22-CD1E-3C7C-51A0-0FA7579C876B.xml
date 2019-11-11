@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9FE6C22-CD1E-3C7C-51A0-0FA7579C876B" name="Uplata">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>C1316835-F7DF-82F5-8463-753476D1131A</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UPL" id="6E430214-1FB8-E743-2E4B-FDD2E82205EF">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>755B2822-A9D4-7920-EDE4-DF39760C166E</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_uplate" id="17575689-DF6F-334D-3E0F-A8EF721F7759">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>843E8B81-B512-3FC9-9651-DF198D95F265</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iznos" id="C0A2B941-3271-C4F5-DDB2-C0C53FA971B8">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>EE548479-81A5-9B9A-DA71-2EF5D689F39E</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="2FC5C260-D6C9-B257-7AD3-4594623B24BE">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>7314B0AF-BABE-6D10-436E-B67910CCA418</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clan_ID_CLA" id="F1145A5D-6BAC-FB84-790F-AB8907ED7C1F">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>69984CA2-7EE1-3079-C6DD-1C226290206E</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0BB98BB-48A1-0F90-DA1F-B4122D753501" referredColumn="A20D769A-C13A-1432-A1BE-8B58F243A216"/>
+</associations>
+</Column>
+<Column name="Clan_Biblioteka_ID_BIB" id="2B82F1D2-325C-E40C-1EBB-15D343252598">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>6F7B5152-F9FA-EF37-FA5A-262035A144D8</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0BB98BB-48A1-0F90-DA1F-B4122D753501" referredColumn="A43FE6A5-3697-6828-B509-91B4D46584A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92DB401C-5B13-1A04-D9ED-5F7C94767F9C" name="Uplata_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>3FFA2E4F-9EE3-5518-482C-B80E44641F08</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E430214-1FB8-E743-2E4B-FDD2E82205EF"/>
+<colUsage columnID="F1145A5D-6BAC-FB84-790F-AB8907ED7C1F"/>
+<colUsage columnID="2B82F1D2-325C-E40C-1EBB-15D343252598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB3998E9-9668-B20A-B239-92B0BBB13612" name="Uplata_Clan_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>CF231B09-6997-AE2A-E1E0-E953DECE828F</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1145A5D-6BAC-FB84-790F-AB8907ED7C1F"/>
+<colUsage columnID="2B82F1D2-325C-E40C-1EBB-15D343252598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

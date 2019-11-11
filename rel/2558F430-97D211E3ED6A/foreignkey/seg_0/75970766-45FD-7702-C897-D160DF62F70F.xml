@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75970766-45FD-7702-C897-D160DF62F70F" containerWithKeyObject="910250CB-C22C-A997-568F-69A31C79F683" localFKIndex="320B2564-24DD-476B-2D45-564AA057C210" name="RADE_ODE_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>A4B7B033-CDCC-E689-180E-A61E6588BDEF</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<referredTableLongName>ODE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E969864-C423-7769-4AB3-A4F07297244D</referredTableID>
+<keyObject>7296266B-D004-FDD5-5DCF-BD4506215967</keyObject>
+<referredKeyID>7296266B-D004-FDD5-5DCF-BD4506215967</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ODE,BIB_ID_BIB</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

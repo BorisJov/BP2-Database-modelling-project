@@ -1,0 +1,1 @@
+ALTER TABLE zap ADD CONSTRAINT zap_pk PRIMARY KEY ( id_zap );

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RADE" directorySegmentName="seg_0" id="A4B7B033-CDCC-E689-180E-A61E6588BDEF">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:21:11 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4161FA7E-D47B-5C0F-FAC9-B59E4F712FBD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5668012-305F-9339-73C9-AC10095F070F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

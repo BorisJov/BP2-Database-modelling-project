@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POTREBA" directorySegmentName="seg_0" id="FBB1E94A-223E-BCAF-672F-971411807D89">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:58:35 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F7E9A8BA-D36A-093F-C4AD-8F3E14CC45A3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B8E78C8-E41F-21CC-4858-A8B18B41A1FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

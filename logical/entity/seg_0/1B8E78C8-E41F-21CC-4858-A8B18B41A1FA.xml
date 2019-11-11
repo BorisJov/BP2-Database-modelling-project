@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B8E78C8-E41F-21CC-4858-A8B18B41A1FA" name="Javna nabavka">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:56:08 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_JAV" id="86004806-9C22-2B52-6BD8-5A1C375330E8">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:56:46 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum pocetka konkursa" id="7941791D-4B09-D750-158F-EE157B9A5E11">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:57:13 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok za prijavu" id="F4067F20-39EB-9F04-C0AF-F662A315DF5F">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:57:45 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ZAP" id="1081E70C-A5F8-1235-CCFE-1F5DE3D49298">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:59:38 UTC</createdTime>
+<generatorID>C4A2A4E1-7196-6ACF-9F0F-831B7461356A</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<referedAttribute>34F4754F-9B54-D278-CA1F-86C9255EE85D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_BIB" id="58861AFA-736F-FF33-CC91-F994DABD8347">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:00:17 UTC</createdTime>
+<generatorID>0F543DE6-E936-31BF-E975-2BA25349105C</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<referedAttribute>21F0B140-68F2-6F3E-37E7-92D78D0CFFEE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B13FBA67-5B2E-7D92-66BF-58953D71F86F" name="Javna nabavka PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:57:44 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86004806-9C22-2B52-6BD8-5A1C375330E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

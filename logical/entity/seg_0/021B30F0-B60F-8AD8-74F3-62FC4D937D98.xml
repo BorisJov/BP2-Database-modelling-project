@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="021B30F0-B60F-8AD8-74F3-62FC4D937D98" name="Naplata">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:47:28 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_NAP" id="A3220621-6F96-E964-6AE0-907908F671B0">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:47:47 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLA" id="7F0C0359-E854-BB9C-93A2-C43B029CE829">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:50:13 UTC</createdTime>
+<generatorID>F1C503EB-6F46-CD3D-FD9C-42796EAF4BF9</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<referedAttribute>D3D5D329-15EE-929D-8923-A44814FB20AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_BIB" id="C5A291F6-F03C-7FC1-2E03-E5D08B60A89C">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:50:13 UTC</createdTime>
+<generatorID>F1C503EB-6F46-CD3D-FD9C-42796EAF4BF9</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<referedAttribute>1C9DD74F-B512-8CBD-F504-849B9C235BEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum naplate" id="318FF71A-72E7-7400-F373-954B3F1421D3">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:48:39 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Iznos" id="956FC4C2-E25C-33F2-8775-0241EA5FE47D">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:48:57 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tip naplate" id="51E3FA98-CF68-8E24-549F-C8FD94FA45F7">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:49:24 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis" id="138B4F84-0AD2-F6B5-9DD6-A7E2742D20E0">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:47:57 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_POZ" id="BAECF59B-9D79-7768-5BCB-F01E64D2FD7F">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:50:55 UTC</createdTime>
+<generatorID>C0DED7A3-CF8A-D407-D708-1267F256ED6E</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>20096089-E7F4-C7F1-5014-3700F76B32A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="171D076C-5C30-834F-DBB4-1407D3BC4B5F" name="Naplata PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:48:00 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3220621-6F96-E964-6AE0-907908F671B0</attributeRef>
+<attributeRef>7F0C0359-E854-BB9C-93A2-C43B029CE829</attributeRef>
+<attributeRef>C5A291F6-F03C-7FC1-2E03-E5D08B60A89C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

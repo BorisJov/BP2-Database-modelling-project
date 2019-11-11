@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VEZANA_ZA" directorySegmentName="seg_0" id="C0DED7A3-CF8A-D407-D708-1267F256ED6E">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:50:55 UTC</createdTime>
+<notes>Veza postoji samo ako je tip naplate dugovanje zbog pozajmice.&lt;br/&gt;</notes>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<sourcePk>1F4FB86D-4364-92F5-0653-C3B08360DC9E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75DB553D-B120-72F7-21F8-038110B91147</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>021B30F0-B60F-8AD8-74F3-62FC4D937D98</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

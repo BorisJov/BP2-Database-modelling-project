@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C082A4A0-B71B-014E-C679-FF5A9675CBC3" name="EVIDENCIJA_KNJIGA">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ODE_ID_ODE" id="25537809-090B-27E1-F64C-0787A8804CE4">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="687C9B01-1BC7-6BB6-302D-9CCA2CEA9CD3" referredColumn="CE6202AA-57D3-BD7B-1D19-E157BADF17C4"/>
+</associations>
+</Column>
+<Column name="ODE_ID_BIB" id="C03A74C7-93B9-7AD3-604C-D15AC12554D0">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="687C9B01-1BC7-6BB6-302D-9CCA2CEA9CD3" referredColumn="11997D61-3A4C-BCAB-CC16-A35F9D016764"/>
+</associations>
+</Column>
+<Column name="KNJ_ISBN" id="A7AF29FF-E833-BDE1-310D-9D20AF78A70C">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E5ACF4D-321D-9B4E-3F15-D5551C007F1A" referredColumn="0B2D544A-A3B8-BE52-934C-3E15FC2B8689"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E7F2197-04D6-55A2-1764-276E875FAC60" name="Evidencija_knjiga_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25537809-090B-27E1-F64C-0787A8804CE4"/>
+<colUsage columnID="C03A74C7-93B9-7AD3-604C-D15AC12554D0"/>
+<colUsage columnID="A7AF29FF-E833-BDE1-310D-9D20AF78A70C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0B1FE7D-AA87-6F07-B3C8-F39E2F1A6275" name="Evidencija_knjiga_ODE_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>A07D2E75-A29D-A73C-3EDA-A3363A72D015</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25537809-090B-27E1-F64C-0787A8804CE4"/>
+<colUsage columnID="C03A74C7-93B9-7AD3-604C-D15AC12554D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0EED140-648C-7CF1-612D-A3C04DE5B417" name="Evidencija_knjiga_KNJ_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>A07D2E75-A29D-A73C-3EDA-A3363A72D015</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7AF29FF-E833-BDE1-310D-9D20AF78A70C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

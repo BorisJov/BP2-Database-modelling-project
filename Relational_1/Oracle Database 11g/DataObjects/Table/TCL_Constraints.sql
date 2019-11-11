@@ -1,0 +1,1 @@
+ALTER TABLE tcl ADD CONSTRAINT tcl_pk PRIMARY KEY ( id_tcl );

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Odobrava" directorySegmentName="seg_0" id="C4A2A4E1-7196-6ACF-9F0F-831B7461356A">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:59:38 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<sourcePk>0363055C-2BE5-796F-1B5C-6F7C261D3C26</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4EC572FA-F6E7-64A6-7C97-581F2FD36EBB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B8E78C8-E41F-21CC-4858-A8B18B41A1FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

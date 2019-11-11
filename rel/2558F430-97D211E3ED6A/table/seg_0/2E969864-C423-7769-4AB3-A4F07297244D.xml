@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E969864-C423-7769-4AB3-A4F07297244D" name="Odeljenje">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>D5668012-305F-9339-73C9-AC10095F070F</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ODE" id="CE6202AA-57D3-BD7B-1D19-E157BADF17C4">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>0BBD1CCD-6512-169A-38C1-EFA045B1B175</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Biblioteka_ID_BIB" id="11997D61-3A4C-BCAB-CC16-A35F9D016764">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>DC58D36E-A892-26E3-1ED0-C33DE8C09C4D</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="039F2CD8-DA91-5834-7EB0-14A99A75B552" referredColumn="A201E96A-E10F-3114-5148-296C333EED34"/>
+</associations>
+</Column>
+<Column name="Naziv" id="B22A86F1-7418-B98F-90EE-867E62708449">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>9273EC2C-3DA8-0056-54DB-C66D0675B320</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7296266B-D004-FDD5-5DCF-BD4506215967" name="Odeljenje_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>29145103-A8CC-D884-0B40-778BAE39A05E</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE6202AA-57D3-BD7B-1D19-E157BADF17C4"/>
+<colUsage columnID="11997D61-3A4C-BCAB-CC16-A35F9D016764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FF32149-A7B9-F767-3D72-95A31294C82D" name="Odeljenje_Biblioteka_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>A2163AD7-18EF-B90E-3163-A6F039EDC374</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11997D61-3A4C-BCAB-CC16-A35F9D016764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

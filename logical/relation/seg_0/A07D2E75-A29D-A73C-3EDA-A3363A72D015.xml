@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVIDENCIJA KNJIGA" directorySegmentName="seg_0" id="A07D2E75-A29D-A73C-3EDA-A3363A72D015">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:28:44 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D5668012-305F-9339-73C9-AC10095F070F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7E9A8BA-D36A-093F-C4AD-8F3E14CC45A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

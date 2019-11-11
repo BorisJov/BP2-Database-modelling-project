@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0BB98BB-48A1-0F90-DA1F-B4122D753501" containerWithKeyObject="F9FE6C22-CD1E-3C7C-51A0-0FA7579C876B" localFKIndex="CB3998E9-9668-B20A-B239-92B0BBB13612" name="Uplata_Clan_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>CF231B09-6997-AE2A-E1E0-E953DECE828F</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<referredTableLongName>Clan</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>8E63B773-6DCA-F1F2-37F9-51B381AD5385</referredTableID>
+<keyObject>2720A2FD-1AEA-FC9D-C026-EA5831563D86</keyObject>
+<referredKeyID>2720A2FD-1AEA-FC9D-C026-EA5831563D86</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLA,Biblioteka_ID_BIB</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

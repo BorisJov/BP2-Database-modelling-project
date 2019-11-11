@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VRSI" directorySegmentName="seg_0" id="0F543DE6-E936-31BF-E975-2BA25349105C">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:00:17 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<sourcePk>5BE45E94-0D1D-CC08-8F15-6D2BF9E00FF9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C04CF0EC-C2A8-753E-D26C-E391C30F1287</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B8E78C8-E41F-21CC-4858-A8B18B41A1FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

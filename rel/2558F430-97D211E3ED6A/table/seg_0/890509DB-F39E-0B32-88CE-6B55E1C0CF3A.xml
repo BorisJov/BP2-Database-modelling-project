@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="890509DB-F39E-0B32-88CE-6B55E1C0CF3A" name="Naplata">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>021B30F0-B60F-8AD8-74F3-62FC4D937D98</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NAP" id="D84007EC-1374-A4D4-9049-955800A08E0C">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>A3220621-6F96-E964-6AE0-907908F671B0</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clan_ID_CLA" id="BC523A23-E0C7-BE16-D4A6-BB03C27EBA5D">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>7F0C0359-E854-BB9C-93A2-C43B029CE829</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87210FCF-A02E-E726-13CC-1AE9F350C1FD" referredColumn="A20D769A-C13A-1432-A1BE-8B58F243A216"/>
+</associations>
+</Column>
+<Column name="Clan_Biblioteka_ID_BIB" id="BF597F20-B9F0-AD01-3E4E-F6E5B27D264F">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>C5A291F6-F03C-7FC1-2E03-E5D08B60A89C</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87210FCF-A02E-E726-13CC-1AE9F350C1FD" referredColumn="A43FE6A5-3697-6828-B509-91B4D46584A4"/>
+</associations>
+</Column>
+<Column name="Datum_naplate" id="9E77C23D-59B4-3F6C-FA67-865E20C1642F">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>318FF71A-72E7-7400-F373-954B3F1421D3</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iznos" id="998B5539-1838-5BF7-F626-CA1DB503F682">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>956FC4C2-E25C-33F2-8775-0241EA5FE47D</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_naplate" id="49AAC115-CA10-45C0-8E6C-4D632A5C14AA">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>51E3FA98-CF68-8E24-549F-C8FD94FA45F7</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="13E2CF9E-CB69-E7BF-AC6D-DBB1D076BD48">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>138B4F84-0AD2-F6B5-9DD6-A7E2742D20E0</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pozajmica_ID_POZ" id="2297645D-7C05-1390-5A1D-FB4A669D24E4">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>BAECF59B-9D79-7768-5BCB-F01E64D2FD7F</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C25D1C43-A5CB-50C9-5243-B09DD774B0E5" referredColumn="B2B0A5F4-92C2-6A3B-18FD-CC61122417B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31525454-EA6D-D485-9883-0A9C2F52167F" name="Naplata_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>171D076C-5C30-834F-DBB4-1407D3BC4B5F</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D84007EC-1374-A4D4-9049-955800A08E0C"/>
+<colUsage columnID="BC523A23-E0C7-BE16-D4A6-BB03C27EBA5D"/>
+<colUsage columnID="BF597F20-B9F0-AD01-3E4E-F6E5B27D264F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="876B480F-A9F0-AD35-2599-DB999E80CA09" name="Naplata_Clan_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>F1C503EB-6F46-CD3D-FD9C-42796EAF4BF9</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC523A23-E0C7-BE16-D4A6-BB03C27EBA5D"/>
+<colUsage columnID="BF597F20-B9F0-AD01-3E4E-F6E5B27D264F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BE6FFC6-1D24-E4B4-5189-8C17F8B8ED68" name="Naplata_Pozajmica_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>C0DED7A3-CF8A-D407-D708-1267F256ED6E</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2297645D-7C05-1390-5A1D-FB4A669D24E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JE_CLAN" directorySegmentName="seg_0" id="E7DA806D-E550-695C-6FE0-D67BFF92B40E">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 14:27:17 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<sourcePk>5BE45E94-0D1D-CC08-8F15-6D2BF9E00FF9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C04CF0EC-C2A8-753E-D26C-E391C30F1287</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A2B7E879-9CD7-1168-FA5F-7B7130DDCE21</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

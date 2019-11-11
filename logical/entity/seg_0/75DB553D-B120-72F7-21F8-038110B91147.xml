@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75DB553D-B120-72F7-21F8-038110B91147" name="Pozajmica">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:30:02 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_POZ" id="20096089-E7F4-C7F1-5014-3700F76B32A4">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:30:20 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum pozajmice" id="F0BAD08A-BC27-1CAF-3286-7FC4AB9DC523">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:30:44 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok povrata" id="13466120-BB8F-D6F5-A6F1-F532BB41191D">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:32:48 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum povrata" id="707322BA-3698-BF4A-FED6-D6FC1673624F">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:31:01 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLA" id="B847D297-FEC2-1857-A875-FEC4A48BD3EB">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:37:47 UTC</createdTime>
+<generatorID>4B6FF2FF-2854-8BA5-B7E0-DD57308B0F28</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<referedAttribute>D3D5D329-15EE-929D-8923-A44814FB20AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_BIB" id="EA491DDC-2E7A-0C07-BF33-2DD4CDA4E5B0">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:37:47 UTC</createdTime>
+<generatorID>4B6FF2FF-2854-8BA5-B7E0-DD57308B0F28</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<referedAttribute>1C9DD74F-B512-8CBD-F504-849B9C235BEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISBN" id="BEA817A6-5B73-9BBE-AF0F-14E792FCA640">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:39:39 UTC</createdTime>
+<generatorID>12D8E630-6739-F0D8-4287-1529E8EA3B91</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<referedAttribute>2898D8BE-DAF2-4DF2-150E-0DF3FF17993E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ZAP" id="00C80BE4-2F2E-21AA-CB0C-88D459344767">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:40:09 UTC</createdTime>
+<generatorID>299FF771-C2E4-DFD9-6D63-DB020151A9EB</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<referedAttribute>34F4754F-9B54-D278-CA1F-86C9255EE85D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F4FB86D-4364-92F5-0653-C3B08360DC9E" name="Pozajmica PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 15:30:32 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<engineerTo>
+<item key="2558F430-3A22-5F5B-69B8-97D211E3ED6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>20096089-E7F4-C7F1-5014-3700F76B32A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

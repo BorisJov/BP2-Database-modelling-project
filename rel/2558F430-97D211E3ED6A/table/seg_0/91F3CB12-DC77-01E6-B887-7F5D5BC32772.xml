@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91F3CB12-DC77-01E6-B887-7F5D5BC32772" name="POTREBA">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KNJ_ISBN" id="2AD402A8-1329-6E59-5935-BAA6950124D3">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B882D5D-8DDA-361D-B9F9-4AF1B5DA3B0C" referredColumn="0B2D544A-A3B8-BE52-934C-3E15FC2B8689"/>
+</associations>
+</Column>
+<Column name="JAV_ID_JAV" id="36045767-CFFE-93D0-31EF-B01AD9826E52">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D621E52-C6CD-55D6-1121-019DE26C3EDC" referredColumn="C61A0F9A-D561-89DB-A43B-CAFF2281C3EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B0EE519-9BB1-9B2A-6298-69303E6F3467" name="POTREBA_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AD402A8-1329-6E59-5935-BAA6950124D3"/>
+<colUsage columnID="36045767-CFFE-93D0-31EF-B01AD9826E52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6AE2FBD-1D8B-B2EF-E9B5-6F3D9271A5B0" name="POTREBA_KNJ_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>FBB1E94A-223E-BCAF-672F-971411807D89</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AD402A8-1329-6E59-5935-BAA6950124D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CE26384-7326-1DCE-25A4-A7393605D0DC" name="POTREBA_JAV_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>FBB1E94A-223E-BCAF-672F-971411807D89</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36045767-CFFE-93D0-31EF-B01AD9826E52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

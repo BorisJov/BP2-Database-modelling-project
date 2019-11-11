@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D621E52-C6CD-55D6-1121-019DE26C3EDC" containerWithKeyObject="91F3CB12-DC77-01E6-B887-7F5D5BC32772" localFKIndex="8CE26384-7326-1DCE-25A4-A7393605D0DC" name="POTREBA_JAV_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>FBB1E94A-223E-BCAF-672F-971411807D89</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<referredTableLongName>JAV</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3753E243-9A5A-3467-5F35-F1711EEF25F4</referredTableID>
+<keyObject>8CD8199F-EAC7-25E8-F49B-24822DE7D7E1</keyObject>
+<referredKeyID>8CD8199F-EAC7-25E8-F49B-24822DE7D7E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_JAV</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8458DF98-B102-DD1C-2CF3-70740D4F72CB" name="Pozajmica">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>75DB553D-B120-72F7-21F8-038110B91147</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_POZ" id="B2B0A5F4-92C2-6A3B-18FD-CC61122417B1">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>20096089-E7F4-C7F1-5014-3700F76B32A4</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_pozajmice" id="99B6758B-5E1E-9C90-0D4B-4718562AFE0A">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>F0BAD08A-BC27-1CAF-3286-7FC4AB9DC523</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rok_povrata" id="7FE9059A-A692-B982-DFAD-BA7C15D5FD5A">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>13466120-BB8F-D6F5-A6F1-F532BB41191D</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_povrata" id="41B9E970-8721-1577-2F41-1A2F63799C64">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>707322BA-3698-BF4A-FED6-D6FC1673624F</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clan_ID_CLA" id="3E95ADDE-3D56-D223-4510-1234378799AA">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>B847D297-FEC2-1857-A875-FEC4A48BD3EB</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4004419D-D50C-2D82-2EEF-7B74F8A5EEFC" referredColumn="A20D769A-C13A-1432-A1BE-8B58F243A216"/>
+</associations>
+</Column>
+<Column name="Clan_Biblioteka_ID_BIB" id="33456D9B-E41D-08A6-4FDA-188FDD5F0967">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>EA491DDC-2E7A-0C07-BF33-2DD4CDA4E5B0</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4004419D-D50C-2D82-2EEF-7B74F8A5EEFC" referredColumn="A43FE6A5-3697-6828-B509-91B4D46584A4"/>
+</associations>
+</Column>
+<Column name="Knjiga_ISBN" id="ABB33F1F-1869-383B-4B13-094B1DE2F578">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>BEA817A6-5B73-9BBE-AF0F-14E792FCA640</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5C938DD-70C1-E2DA-84E4-12DA9B8879F7" referredColumn="0B2D544A-A3B8-BE52-934C-3E15FC2B8689"/>
+</associations>
+</Column>
+<Column name="Bibliotekar_ID_ZAP" id="2174F182-8FBD-4BA1-EE0F-6337A5D83EC4">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>00C80BE4-2F2E-21AA-CB0C-88D459344767</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07719FED-6C3F-A31F-A009-B885E0D7EBC7" referredColumn="E682E942-BA03-EB77-3514-06D172C0A357"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C65952D7-94FE-DB5E-458A-641E4003814E" name="Pozajmica_PK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>1F4FB86D-4364-92F5-0653-C3B08360DC9E</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2B0A5F4-92C2-6A3B-18FD-CC61122417B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B76B74D-2ECB-7DB9-8D4E-E43778B29E50" name="Pozajmica_Clan_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>4B6FF2FF-2854-8BA5-B7E0-DD57308B0F28</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E95ADDE-3D56-D223-4510-1234378799AA"/>
+<colUsage columnID="33456D9B-E41D-08A6-4FDA-188FDD5F0967"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="368816AB-5E64-94F1-5904-5AF1A377564D" name="Pozajmica_Knjiga_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>12D8E630-6739-F0D8-4287-1529E8EA3B91</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABB33F1F-1869-383B-4B13-094B1DE2F578"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DCFE218-9B51-67C0-E8F2-C8AFA94699E1" name="Pozajmica_Bibliotekar_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 18:34:37 UTC</createdTime>
+<generatorID>299FF771-C2E4-DFD9-6D63-DB020151A9EB</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2174F182-8FBD-4BA1-EE0F-6337A5D83EC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

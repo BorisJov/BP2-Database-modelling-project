@@ -1,0 +1,1 @@
+ALTER TABLE bib ADD CONSTRAINT bib_pk PRIMARY KEY ( id_bib );

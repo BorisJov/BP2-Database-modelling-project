@@ -1,0 +1,1 @@
+ALTER TABLE poz ADD CONSTRAINT poz_pk PRIMARY KEY ( id_poz );

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E5ACF4D-321D-9B4E-3F15-D5551C007F1A" containerWithKeyObject="C082A4A0-B71B-014E-C679-FF5A9675CBC3" localFKIndex="A0EED140-648C-7CF1-612D-A3C04DE5B417" name="Evidencija_knjiga_KNJ_FK">
+<createdBy>Boris</createdBy>
+<createdTime>2019-01-20 16:02:26 UTC</createdTime>
+<generatorID>A07D2E75-A29D-A73C-3EDA-A3363A72D015</generatorID>
+<ownerDesignName>ProjekatDM</ownerDesignName>
+<referredTableLongName>KNJ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>08CC9E2E-5339-CAF7-8377-75E39012725F</referredTableID>
+<keyObject>70E49812-C63F-A20F-E80D-637AB64DE0DF</keyObject>
+<referredKeyID>70E49812-C63F-A20F-E80D-637AB64DE0DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ISBN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

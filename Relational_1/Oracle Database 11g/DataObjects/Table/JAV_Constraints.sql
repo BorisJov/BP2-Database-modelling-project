@@ -1,0 +1,1 @@
+ALTER TABLE jav ADD CONSTRAINT jav_pk PRIMARY KEY ( id_jav );
